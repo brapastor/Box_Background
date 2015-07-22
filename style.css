@@ -1,0 +1,31 @@
+.box{
+    /*width: 100%;*/
+    position: relative;
+    height: 30vh;
+    background: #000;
+}
+.box_fondo {
+    /*background: transparent url("https://a0.muscache.com/airbnb/static/landing_pages/referrals/hero-bg-6550ae96009423e8a4d69c2397e584f1.jpg")*/
+    background: url("http://wallpapers.org.es/wp-content/uploads/2013/04/fondo-degradado-azul-900x562.jpg");
+    no-repeat :50% 50%;
+    background-position: 0% 30%;
+    background-size: cover;
+}
+
+.media-cover,
+.media-cover-dark:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.media-cover-dark:after{
+    content: " ";
+    background: #FF8000; /*pones el color de fondo*/
+    opacity: 0.2;
+    filter: alpha(opacity=30);
+}
+.box_title{
+    position: relative;
+}
